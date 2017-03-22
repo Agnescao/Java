@@ -96,19 +96,19 @@ import java.util.*;
      { 
 				    ArrayList<Integer> list = new ArrayList();
 				    Collections.addAll(list , 4,4,4,4,4,4,4);
-				    int res1=sum(new ArrayList(list));
-				    System.out.println("Sum of all elements in list="+res1);
+				    int result1=sum(new ArrayList(list));
+				    System.out.println("Sum of all elements in list="+result1);
 				    //find out how many even in list
-				    int res2=countEven(new ArrayList(list));
-				    System.out.println("Even elements in list="+res2);
+				    int result2=countEven(new ArrayList(list));
+				    System.out.println("Even elements in list="+result2);
 				    //find out how many times the target occurs in list
-				    int tar=Console.readInt("Enter target");
-				    int res3=countTarget(new ArrayList(list),tar);
-				    System.out.println("Els found in list="+res3);
+				    int target1=Console.readInt("Enter target");
+				    int result3=countTarget(new ArrayList(list),target1);
+				    System.out.println("Els found in list="+result3);
 				    
-				    int tar2=Console.readInt("Enter target");
-				    boolean res4=searchTarget(new ArrayList(list),tar2);
-				    System.out.println("search target in list="+res4);
+				    int target2=Console.readInt("Enter target");
+				    boolean result4=searchTarget(new ArrayList(list),target2);
+				    System.out.println("search target in list="+result4);
 				    
 				    
 				    boolean res5=containsEvenNo(new ArrayList(list));

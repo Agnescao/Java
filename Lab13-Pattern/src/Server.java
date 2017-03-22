@@ -9,25 +9,26 @@ class Server
 
     public Server()
     
-    {   single=this; created=true;
-   
-    	
+    {   
+    	single=this; created=true;
     	count++;
-             sequence=count;
+        sequence=count;
     }
     public static Server getInstance(){
         if (!created){
-                             single=new Server();}
-        return single;}
+          single=new Server();
+          }
+        return single;
+        }
 
     public String readNumber(){return ipnumber;}
     public void print_details()
     {
-              System.out.println("Name:= " + name);
-              System.out.println("ipNumber:= " + ipnumber);
-       	   System.out.println ("Location:= " + location);
-       	   System.out.println ("Sequence:= "+sequence);
-       	   System.out.println ();
+          System.out.println("Name:= " + name);
+          System.out.println("ipNumber:= " + ipnumber);
+		   System.out.println ("Location:= " + location);
+		   System.out.println ("Sequence:= "+sequence);
+		   System.out.println ();
     }
 }
 

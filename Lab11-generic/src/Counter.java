@@ -7,7 +7,6 @@
             value = v1;
         }
         public boolean equal(T V2){
-        	
 
         	if(V2.equals(value)) return true;
         	else return false;
