@@ -8,6 +8,7 @@ public class Address implements Serializable {
 	public String toString(){
  		return " "+city+":"+town;
  	}
+	
 	public Address(String city, String town) {
 		super();
 		this.city = city;
